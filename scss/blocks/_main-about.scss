@@ -1,3 +1,4 @@
+
 .main__img{
     background-image: url(../images/coffee.png);
     background-position: center;
@@ -24,19 +25,25 @@
     font-size: 16px;
     line-height: 26px;
 }
-@media only screen and (max-width:650px){
-    
-}
 @media only screen and (max-width:470px){
     .lost{
         width: 250px;
         padding: 50px 10px;
         line-height: 25px;
-
-        
         text-align: center;
         margin: 0 auto;
         font-size: 15px;
         line-height: 25px;
+    }
+    .lost__title{
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .lost__text{
+        max-width: 470px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
     }
 }
